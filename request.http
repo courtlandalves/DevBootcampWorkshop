@@ -1,0 +1,8 @@
+GET / HTTP/1.1
+Host: google.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; fr; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8
+Accept: */*
+Accept-Encoding: deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Cookie: name=Leia
+

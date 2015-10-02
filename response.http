@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: length
+Set-Cookie: test=Courtland
+
+<html> 
+  <title>Pagina de teste</title> 
+  <body> 
+    <h2>Alo Netcat</h2> 
+    <h2>Bem Vindo</h2> 
+  </body> 
+</html> 
