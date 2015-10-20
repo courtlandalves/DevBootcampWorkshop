@@ -8,12 +8,13 @@
   </head>
 
   <body>
-    <script src="singleton.js"></script>
+    <script src="problem.js"></script>
 
     <script>
       var logger = LoggerSingleton.get_instance();
       var logger2 = LoggerSingleton.get_instance();
 
+      // Because of the complexities of creating a logger, we only want it created once
       if (logger.user_id == logger2.user_id) {
         console.log( "Same user!" );
       } else {

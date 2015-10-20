@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Factory Pattern</title>
+  </head>
+
+  <body>
+    <script src="problem.js"></script>
+
+    <script>
+      // Here might be the first way this is made:
+      var paragraph_el = new ParagraphElement();
+      paragraph_el.params = {text: "This is paragraph text"};
+
+      var image_el = new ImageElement();
+      image_el.params = {src: "http://t.co/static/images/bird.png"};
+
+      // This would be a more convenient way to do this:
+      //var paragraph_el = elementFactory.create("paragraph", { text: "This is paragraph text" });
+      //var image_el = elementFactory.create("image", { src: "http://t.co/static/images/bird.png" });
+
+      console.log(paragraph_el.tag);
+      console.log(image_el.tag);
+
+    </script>
+
+  </body>
+
+</html>
