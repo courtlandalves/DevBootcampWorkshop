@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Singleton Pattern</title>
+  </head>
+
+  <body>
+    <script src="singleton.js"></script>
+
+    <script>
+      var logger = LoggerSingleton.get_instance();
+      var logger2 = LoggerSingleton.get_instance();
+
+      if (logger.user_id == logger2.user_id) {
+        console.log( "Same user!" );
+      } else {
+        console.log( "Fail, created two users" );
+      }
+
+    </script>
+
+  </body>
+
+</html>

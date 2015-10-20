@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Module Pattern</title>
+  </head>
+
+  <body>
+    <script src="problem.js"></script>
+
+    <script>
+
+      // This works:
+      console.log("This should work:");
+      auth.login("mypassword") // => Success!
+      console.log("This shouldn't work:");
+      auth.login("password1") // => Wrong Password
+
+      // PROBLEM
+      // This is not secure
+      console.log("Here are the keys:");
+      console.log(Object.keys(auth));
+
+      console.log("Here is the value of password:");
+      console.log(auth.password);
+
+      // We can change the password
+      console.log(auth.password = "new_password");
+
+      console.log("This should work:");
+      auth.login("mypassword");
+      console.log("This shouldn't work:");
+      auth.login("new_password");
+
+    </script> 
+
+  </body>
+
+</html>
