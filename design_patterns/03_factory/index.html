@@ -12,15 +12,16 @@
 
     <script>
       // Here might be the first way this is made:
-      var paragraph_el = new ParagraphElement();
-      paragraph_el.params = {text: "This is paragraph text"};
+      //var paragraph_el = new ParagraphElement();
+      //paragraph_el.params = {text: "This is paragraph text"};
 
-      var image_el = new ImageElement();
-      image_el.params = {src: "http://t.co/static/images/bird.png"};
+      //var image_el = new ImageElement();
+      //image_el.params = {src: "http://t.co/static/images/bird.png"};
 
+      // You realize that there are going to be a ton of these and would like to make this easier to understand
       // This would be a more convenient way to do this:
-      //var paragraph_el = elementFactory.create("paragraph", { text: "This is paragraph text" });
-      //var image_el = elementFactory.create("image", { src: "http://t.co/static/images/bird.png" });
+      var paragraph_el = elementFactory.create("paragraph", { text: "This is paragraph text" });
+      var image_el = elementFactory.create("image", { src: "http://t.co/static/images/bird.png" });
 
       console.log(paragraph_el.tag);
       console.log(image_el.tag);
