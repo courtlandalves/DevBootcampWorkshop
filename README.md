@@ -8,7 +8,7 @@
 
 ## Internet Protocol Suite
  * [List of Useful RFCs](rfcs.md)
- * [Group Presentation](https://docs.google.com/presentation/d/1wI0iTfBaf3Yyr33nQZOiOluKucCufpZtnSp45krlNMY/edit#slide=id.ge26147e88_0_55)
+ * [Group Presentation](https://docs.google.com/presentation/d/1lkJRYHRgvzniC5gLB_YMFdJB1te3TX39_9cndFKkHSo/edit?usp=sharing)
 
 ## Debrief
 * [Slides](https://docs.google.com/presentation/d/1UakPieQs99GOSCO_xeYWnGWhxwlSDVd8ZaOJS3-pmqk/edit#slide=id.p)
