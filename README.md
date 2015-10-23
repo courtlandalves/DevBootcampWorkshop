@@ -1,6 +1,6 @@
 # DevBootcampWorkshop
 
-## Types of Interviews 
+## Introduction
  * [Slides](https://docs.google.com/presentation/d/1GZ76-YAgewfo3rBdIZpDIrRNToz19rcaYOHWoYWSiy8/edit?usp=sharing)
 
 ## Design Patterns
