@@ -12,16 +12,16 @@
 
     <script>
 
-      var add_listener = function(student_id) {
+      var listener = function(student_id) {
         console.log("a student has been added: " + student_id);
       };
 
-      students.subscribe("add", add_listener);
+      students.subscribe("add", listener);
 
       students.add(2);
       students.add(6);
 
-      students.unsubscribe("add", add_listener);
+      students.unsubscribe("add", listener);
 
       students.add(8);
       
