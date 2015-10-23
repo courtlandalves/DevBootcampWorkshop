@@ -7,7 +7,7 @@
  * [JavaScript Design Patterns](design_patterns)
 
 ## Internet Protocol Suite
- * [List of Useful RFCs](http/rfcs.md)
+ * [List of Useful RFCs](internet_protocols/rfcs.md)
  * [Group Presentation](https://docs.google.com/presentation/d/1lkJRYHRgvzniC5gLB_YMFdJB1te3TX39_9cndFKkHSo/edit?usp=sharing)
 
 ## Debrief
