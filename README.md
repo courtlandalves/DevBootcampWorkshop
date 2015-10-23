@@ -1,13 +1,10 @@
 # DevBootcampWorkshop
 
-## Introduction & Self Assessment
-* [Slides](http://bit.ly/courtland1)
-* [Programming Competency Matrix](http://bit.ly/PCMatrix)
-* [Programming Competency Matrix Google Sheet](http://bit.ly/PCMatrixSheet)
+## Types of Interviews 
+ * [Slides](https://docs.google.com/presentation/d/1GZ76-YAgewfo3rBdIZpDIrRNToz19rcaYOHWoYWSiy8/edit?usp=sharing)
 
 ## Design Patterns
-* [Slides](http://bit.ly/courtland2)
-* [Tracking Who's Done](https://docs.google.com/spreadsheets/d/1-PwqRastG2p9RRKKz8wTOhVwsXkzdmWbTNi7RQbSUKY/edit#gid=0)
+ * [JavaScript Design Patterns](design_patterns)
 
 ## Internet Protocol Suite
  * [Slides](http://bit.ly/courtland3)
