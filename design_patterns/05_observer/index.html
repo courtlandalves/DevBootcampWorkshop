@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Observer Pattern</title>
+  </head>
+
+  <body>
+    <script src="problem.js"></script>
+
+    <script>
+
+      var add_listener = function(student_id) {
+        console.log("a student has been added: " + student_id);
+      };
+
+      students.subscribe("add", add_listener);
+
+      students.add(2);
+      students.add(6);
+
+      students.unsubscribe("add", add_listener);
+
+      students.add(8);
+      
+    </script>
+
+  </body>
+
+</html>
