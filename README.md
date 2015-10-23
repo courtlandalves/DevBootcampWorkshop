@@ -7,8 +7,7 @@
  * [JavaScript Design Patterns](design_patterns)
 
 ## Internet Protocol Suite
- * [Slides](http://bit.ly/courtland3)
- * [Jump Straight to RFC List](https://docs.google.com/presentation/d/1mY862OVmS698-WZ3cPLjn68u0slpYtp3X2vnjV6YOp8/edit#slide=id.gbd668f755_1_5)
+ * [List of Useful RFCs](rfcs.md)
  * [Group Presentation](https://docs.google.com/presentation/d/1wI0iTfBaf3Yyr33nQZOiOluKucCufpZtnSp45krlNMY/edit#slide=id.ge26147e88_0_55)
 
 ## Debrief

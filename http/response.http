@@ -4,9 +4,9 @@ Content-Length: length
 Set-Cookie: test=Courtland
 
 <html> 
-  <title>Pagina de teste</title> 
+  <title>Test Page</title> 
   <body> 
-    <h2>Alo Netcat</h2> 
-    <h2>Bem Vindo</h2> 
+    <h2>Test line 1</h2> 
+    <h2>Test line 2</h2> 
   </body> 
 </html> 
