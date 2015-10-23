@@ -6,3 +6,6 @@ while true; do nc -l localhost 8888 -q 1 < response.http ; done
 
 # This will listen to all TCP requests
 sudo tcpdump -i 7  -A 'tcp port 8888'
+
+# This will look up the DNS entries for a domain
+nslookup google.com
